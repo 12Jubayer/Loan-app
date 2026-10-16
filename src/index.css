@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --color-navy: #0c1628;
+  --color-ink: #101c30;
+  --color-panel: #13233a;
+  --color-line: #243652;
+  --color-cyan: #2ad4f0;
+  --color-muted: #9aafc6;
+  --color-nav: #1e6fe3;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #0c1628;
+  color: #ffffff;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2a4060 transparent;
+}
